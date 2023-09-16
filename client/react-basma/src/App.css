@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Noto+Kufi+Arabic&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cormorant+Garamond:ital,wght@0,300;1,400&family=Noto+Kufi+Arabic&family=Noto+Naskh+Arabic:wght@500&family=Satisfy&display=swap');
+
+
+*{
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}

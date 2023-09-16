@@ -1,0 +1,36 @@
+
+body{
+    background: #17744c;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.signin{
+  font-family: 'Noto Naskh Arabic', serif;
+  color: black;
+  font-size:x-large;
+  text-decoration: none;
+}
+
+
+
+.main-container{
+    margin: 3rem;
+  }
+
+@media (max-width: 720px) {
+    body {
+      background: transparent;
+      padding: 10px;
+      height: auto;
+    }
+
+    .main-container{
+        margin: 0;
+    }
+
+  }
+
+
