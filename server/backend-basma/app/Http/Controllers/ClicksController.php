@@ -18,7 +18,7 @@ class ClicksController extends Controller
     
         $clicks = DB::table('clicks')
             ->select('category', DB::raw('count(*) as total_clicks'), DB::raw('count(distinct user_id) as unique_clicks'))
-            ->where('created_at', '>=', $start)
+            // ->where('created_at', '>=', $start)
             ->groupBy('category')
             ->orderBy('total_clicks', 'desc')
             ->limit(6)

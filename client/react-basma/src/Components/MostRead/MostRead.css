@@ -1,0 +1,49 @@
+
+
+.accordion-button::after {
+    display: none;
+  }
+
+.accordion-button:not(.collapsed)::before {
+    content: '\2212'; 
+    background: #EA4228;
+    padding: 1rem;
+    border-top-right-radius: 6px;
+    color: white;
+    font-size: large;
+  }
+  
+  .accordion-button.collapsed::before {
+    content: '\002B';
+    background: #33B090;
+    padding: 2vh;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    font-size: large;
+    color:white;
+  }
+
+
+  
+
+.accordion-button{
+    font-weight: bold;
+    padding: 0;
+    color: #33B090;
+    background: white;
+    border-radius: 10px;
+}
+
+
+.accordion-button:not(.collapsed){
+    background: #3C3E4B;
+    border-bottom-left-radius: 0;
+    color: white;
+}
+
+.accordion-item{
+    margin-bottom: 2vh;
+    width: auto;
+}
+
+

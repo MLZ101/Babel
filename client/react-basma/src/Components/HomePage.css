@@ -1,6 +1,6 @@
 
 body{
-    background: #17744c;
+    background: #14593D;
     height:auto;
     display: flex;
     align-items: center;
@@ -15,16 +15,26 @@ body{
 }
 
 
-
 .main-container{
-    margin: 3rem;
+    margin: 0 auto;
   }
 
-@media (max-width: 720px) {
+
+
+@media (max-width: 1000px) {
     body {
       background: transparent;
       padding: 10px;
       height: auto;
+    }
+
+    .cardContainer {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 50%;
     }
 
     .main-container{
@@ -34,3 +44,19 @@ body{
   }
 
 
+
+/* on bigger screens */
+  @media (min-width: 1001px) {
+    .card {
+      width: 33.33%; 
+    }
+  }
+
+
+
+/* on smaller screens */
+  @media(max-width: 600px){
+    .card{
+      width: 100%;
+    }
+  }

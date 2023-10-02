@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: HS-Ishraq-Light-1;
+    src: url("../../assets/HS-Ishraq-Light-1.otf") format("opentype");
+}
+
+p{
+    width: 60%;
+    font-size: 1rem;
+}
+
+
+.carousel-indicators {
+    bottom: 10px; 
+    justify-content: left;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+.carousel-indicators [data-bs-target] {
+    margin: 4px;
+    height: 1.5vh;
+    width: 1.5vh;
+    border: #e64127 solid 1px;
+    background-color: #e64127;
+    opacity: 1;
+
+}
+
+.carousel-indicators .active {
+    background-color:  transparent ; 
+    opacity: .6;
+}
